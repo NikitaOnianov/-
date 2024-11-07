@@ -1,0 +1,7 @@
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\Разделение массива на два\obj\Debug\Разделение массива на два.csproj.AssemblyReference.cache
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\Разделение массива на два\obj\Debug\Разделение массива на два.csproj.CoreCompileInputs.cache
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\Разделение массива на два\bin\Debug\Разделение массива на два.exe.config
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\Разделение массива на два\bin\Debug\Разделение массива на два.exe
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\Разделение массива на два\bin\Debug\Разделение массива на два.pdb
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\Разделение массива на два\obj\Debug\Разделение массива на два.exe
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\Разделение массива на два\obj\Debug\Разделение массива на два.pdb

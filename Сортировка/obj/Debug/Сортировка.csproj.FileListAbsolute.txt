@@ -1,0 +1,7 @@
+C:\Users\VivoBook 15X\Desktop\C#\Сортировка\bin\Debug\Сортировка.exe.config
+C:\Users\VivoBook 15X\Desktop\C#\Сортировка\bin\Debug\Сортировка.exe
+C:\Users\VivoBook 15X\Desktop\C#\Сортировка\bin\Debug\Сортировка.pdb
+C:\Users\VivoBook 15X\Desktop\C#\Сортировка\obj\Debug\Сортировка.csproj.AssemblyReference.cache
+C:\Users\VivoBook 15X\Desktop\C#\Сортировка\obj\Debug\Сортировка.csproj.CoreCompileInputs.cache
+C:\Users\VivoBook 15X\Desktop\C#\Сортировка\obj\Debug\Сортировка.exe
+C:\Users\VivoBook 15X\Desktop\C#\Сортировка\obj\Debug\Сортировка.pdb
