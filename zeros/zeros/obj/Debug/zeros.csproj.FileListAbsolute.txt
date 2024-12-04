@@ -1,0 +1,7 @@
+C:\Users\VivoBook 15X\Desktop\программирование\-\zeros\zeros\bin\Debug\zeros.exe.config
+C:\Users\VivoBook 15X\Desktop\программирование\-\zeros\zeros\bin\Debug\zeros.exe
+C:\Users\VivoBook 15X\Desktop\программирование\-\zeros\zeros\bin\Debug\zeros.pdb
+C:\Users\VivoBook 15X\Desktop\программирование\-\zeros\zeros\obj\Debug\zeros.csproj.AssemblyReference.cache
+C:\Users\VivoBook 15X\Desktop\программирование\-\zeros\zeros\obj\Debug\zeros.csproj.CoreCompileInputs.cache
+C:\Users\VivoBook 15X\Desktop\программирование\-\zeros\zeros\obj\Debug\zeros.exe
+C:\Users\VivoBook 15X\Desktop\программирование\-\zeros\zeros\obj\Debug\zeros.pdb
