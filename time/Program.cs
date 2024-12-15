@@ -1,53 +1,77 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace time
+public class Program
 {
-    internal class Program
+    public static void Main()
     {
-        static void Main(string[] args)
+        // Ввод начальных данных
+        Console.Write("Введите время начала каждого занятия через запятую (hh:mm): ");
+        var strstart = Console.ReadLine().Split(' ');
+        string[] startTimes = new string[strstart.Length];
+
+        for (int i = 0; i < startTimes.Length; i++)
         {
-             //Пример данных
-             //var dateTimes = new DateTime[] {
-             //DateTime.Parse("2023-01-01 08:15"),
-             //DateTime.Parse("2023-01-01 08:30"),
-             //DateTime.Parse("2023-01-01 08:45"),
-             //DateTime.Parse("2023-01-01 09:00"),
-             //DateTime.Parse("2023-01-01 09:15"),
-             //DateTime.Parse("2023-01-01 09:30"),
-             //DateTime.Parse("2023-01-01 09:45"),
-             //DateTime.Parse("2023-01-01 10:00"),
-             //DateTime.Parse("2023-01-01 10:15"),
-            
-            
-            
-            //DateTime x30 = new DateTime(2001, 9, 11, 8, 00, 0);
+            startTimes[i] = strstart[i].Trim();
+        }
 
-            int[] a = { 2001, 9, 11, 8, 00, 0 };
-            DateTime x30 = DateTime.Parse(a);
+        // Продолжительность занятий
+        Console.Write("Введите продолжительность каждого занятия через запятую в минутах: ");
+        var strdurations = Console.ReadLine().Split(' ');
+        int[] durations = new int[strdurations.Length];
 
-            bool us = false;
+        for (int i = 0; i < durations.Length; i++)
+        {
+            durations[i] = int.Parse(strdurations[i]);
+        }
 
-            for (int i = 0; i < 20; i++)
+        // Начало работы
+        Console.Write("Введите начало рабочего дня (hh:mm): ");
+        string beginWorkingTime = Console.ReadLine();
+
+        // Конец рабочего дня
+        Console.Write("Введите конец рабочего дня (hh:mm): ");
+        string endWorkingTime = Console.ReadLine();
+
+        // Введите время консультации
+        Console.Write("Введите время консультаци в минутах: ");
+        int consultationTime = int.Parse(Console.ReadLine());
+
+        // Вызов функции для поиска свободных промежутков
+        TimeSpan workStart = TimeSpan.Parse(beginWorkingTime);
+        TimeSpan workEnd = TimeSpan.Parse(endWorkingTime);
+        TimeSpan consultationDuration = TimeSpan.FromMinutes(consultationTime);
+
+        List<string> freeSlots = new List<string>();
+        TimeSpan current = workStart;
+
+        for (int i = 0; i < startTimes.Length; i++)
+        {
+            TimeSpan start = TimeSpan.Parse(startTimes[i]);
+            TimeSpan end = start.Add(TimeSpan.FromMinutes(durations[i]));
+
+            // Добавляем свободные промежутки перед занятым временем
+            while (current.Add(consultationDuration) <= start)
             {
-                if ()
-                
-                
-                if (us)
-                {
-                    Console.Write($"{x30:t} - ");
-                    x30 = x30.AddMinutes(30);
-                    Console.WriteLine($"{x30:t}");
-                }
-                else
-                {
-                    x30 = x30.AddMinutes(30);
-                }
+                freeSlots.Add($"{current:hh\\:mm}-{current.Add(consultationDuration):hh\\:mm}");
+                current = current.Add(consultationDuration);
             }
-            Console.ReadKey();
+
+            // Обновляем текущее время до конца текущего занятого промежутка
+            current = end > current ? end : current;
+        }
+
+        // Проверка на оставшийся свободный промежуток после последнего занятого интервала
+        while (current.Add(consultationDuration) <= workEnd)
+        {
+            freeSlots.Add($"{current:hh\\:mm}-{current.Add(consultationDuration):hh\\:mm}");
+            current = current.Add(consultationDuration);
+        }
+
+        Console.WriteLine("Свободные временные промежутки:");
+        foreach (string slot in freeSlots)
+        {
+            Console.WriteLine(slot);
         }
     }
 }

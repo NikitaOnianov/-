@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VivoBook 15X\\Desktop\\-\\time\\",
+  "WorkspaceRootPath": "C:\\Users\\VivoBook 15X\\Desktop\\-\\Mediana\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{966DEB63-DAAA-4567-B6C5-A12B4A966EAF}|time.csproj|c:\\users\\vivobook 15x\\desktop\\-\\time\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{966DEB63-DAAA-4567-B6C5-A12B4A966EAF}|time.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50CD9121-7F3E-4550-B12D-0D08E193F6FF}|ConsoleApp1.csproj|c:\\users\\vivobook 15x\\desktop\\-\\mediana\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CD9121-7F3E-4550-B12D-0D08E193F6FF}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\VivoBook 15X\\Desktop\\-\\time\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\VivoBook 15X\\Desktop\\-\\Mediana\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\VivoBook 15X\\Desktop\\-\\time\\Program.cs",
+              "ToolTip": "C:\\Users\\VivoBook 15X\\Desktop\\-\\Mediana\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T10:42:28.276Z",
+              "WhenOpened": "2024-12-15T14:17:06.425Z",
               "EditorCaption": ""
             }
           ]
