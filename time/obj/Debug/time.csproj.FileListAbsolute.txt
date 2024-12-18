@@ -1,0 +1,14 @@
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\time\obj\Debug\time.csproj.AssemblyReference.cache
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\time\obj\Debug\time.csproj.CoreCompileInputs.cache
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\time\bin\Debug\time.exe.config
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\time\bin\Debug\time.exe
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\time\bin\Debug\time.pdb
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\time\obj\Debug\time.exe
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\time\obj\Debug\time.pdb
+C:\Users\VivoBook 15X\Desktop\-\time\bin\Debug\time.exe.config
+C:\Users\VivoBook 15X\Desktop\-\time\bin\Debug\time.exe
+C:\Users\VivoBook 15X\Desktop\-\time\bin\Debug\time.pdb
+C:\Users\VivoBook 15X\Desktop\-\time\obj\Debug\time.csproj.AssemblyReference.cache
+C:\Users\VivoBook 15X\Desktop\-\time\obj\Debug\time.csproj.CoreCompileInputs.cache
+C:\Users\VivoBook 15X\Desktop\-\time\obj\Debug\time.exe
+C:\Users\VivoBook 15X\Desktop\-\time\obj\Debug\time.pdb

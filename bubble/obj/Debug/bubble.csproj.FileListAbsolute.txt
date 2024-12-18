@@ -1,0 +1,9 @@
+C:\Users\VivoBook 15X\Desktop\C#\bubble\obj\Debug\bubble.csproj.AssemblyReference.cache
+C:\Users\VivoBook 15X\Desktop\C#\bubble\obj\Debug\bubble.csproj.CoreCompileInputs.cache
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\bubble\obj\Debug\bubble.csproj.AssemblyReference.cache
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\bubble\obj\Debug\bubble.csproj.CoreCompileInputs.cache
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\bubble\bin\Debug\bubble.exe.config
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\bubble\bin\Debug\bubble.exe
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\bubble\bin\Debug\bubble.pdb
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\bubble\obj\Debug\bubble.exe
+C:\Users\VivoBook 15X\Desktop\C#\Основы Алгаритмизации\bubble\obj\Debug\bubble.pdb
